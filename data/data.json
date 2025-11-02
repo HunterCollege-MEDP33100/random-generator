@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Random Fortune Generator"
+    },
+    {
+        "fortunes": [
+            {
+                "good-fortune": "You will pass this class",
+                "bad-fortune": "You will NOT pass this class",
+                "ambiguous-fortune": "The outcomes of taking this class lies in your hands"
+            }
+        ]
+    }
+]
