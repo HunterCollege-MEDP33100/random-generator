@@ -2,26 +2,181 @@
     {
         "hex": "#5a5b9f",
         "code": "18-3943 TPX",
-        "name": "Blue Iris"
+        "name": "Blue Iris",
+        "id": "1"
     },
     {
         "hex": "#d94f70",
         "code": "18-2120 TPX",
-        "name": "Honeysuckle"
+        "name": "Honeysuckle",
+        "id": "2"
     },
     {
         "hex": "#f0c05a",
         "code": "14-0848 TPX",
-        "name": "Mimosa"
+        "name": "Mimosa",
+        "id": "3"
     },
     {
         "hex": "#b163a3",
         "code": "18-3224 TPX",
-        "name": "Radiant Orchid"
+        "name": "Radiant Orchid",
+        "id": "4"
     },
     {
         "hex": "#45b5aa",
         "code": "15-5519 TPX",
-        "name": "Turquoise"
+        "name": "Turquoise",
+        "id": "5"
+    },
+    {
+        "hex": "#88d7bf",
+        "code": "13-5714 TCX",
+        "name": "Cabbage",
+        "id": "6"
+    },
+    {
+        "hex": "#78bdd4",
+        "code": "14-4310 TCX",
+        "name": "Blue Topaz",
+        "id": "7"
+    },
+    {
+        "hex": "#4f3872",
+        "code": "19-3737 TCX",
+        "name": "Heliotrope",
+        "id": "8"
+    },
+    {
+        "hex": "#d2ce20",
+        "code": "20-0046 TPM",
+        "name": "Firefly",
+        "id": "9"
+    },
+    {
+        "hex": "#e47126",
+        "code": "16-1255 TCX",
+        "name": "Russet Orange",
+        "id": "10"
+    },
+    {
+        "hex": "#6c5699",
+        "code": "18-3737 TCX",
+        "name": "Passion Flower",
+        "id": "11"
+    },
+    {
+        "hex": "#f1a7cd",
+        "code": "15-2213 TCX",
+        "name": "Bonbon",
+        "id": "12"
+    },
+    {
+        "hex": "#f3e7b2",
+        "code": "11-0616 TCX",
+        "name": "Pastel Yellow",
+        "id": "13"
+    },
+    {
+        "hex": "#cae9f1",
+        "code": "12-4611 TCX",
+        "name": "Saltwater Slide",
+        "id": "14"
+    },
+    {
+        "hex": "#d77e71",
+        "code": "16-1532 TCX",
+        "name": "Crabapple",
+        "id": "15"
+    },
+    {
+        "hex": "#36869f",
+        "code": "17-4328 TCX",
+        "name": "Blue Moon",
+        "id": "16"
+    },
+    {
+        "hex": "#cfced7",
+        "code": "20-0125 TPM",
+        "name": "Danburite",
+        "id": "17"
+    },
+    {
+        "hex": "#e6e5de",
+        "code": "20-0082 TPM",
+        "name": "Lacquer",
+        "id": "18"
+    },
+    {
+        "hex": "#ff67b3",
+        "code": "16-2125 TN",
+        "name": "Sugar Plum",
+        "id": "19"
+    },
+    {
+        "hex": "#f3e2e6",
+        "code": "11-2511 TCX",
+        "name": "Shrinking Violet",
+        "id": "20"
+    },
+    {
+        "hex": "#be5a81",
+        "code": "20-0106 TPM",
+        "name": "Anemonium",
+        "id": "21"
+    },
+    {
+        "hex": "#c76657",
+        "code": "17-1444 TPG",
+        "name": "Ginger",
+        "id": "22"
+    },
+    {
+        "hex": "#69448e",
+        "code": "18-3640 TN",
+        "name": "Electric Purple",
+        "id": "23"
+    },
+    {
+        "hex": "#d3d95f",
+        "code": "13-0645 TCX",
+        "name": "Limeade",
+        "id": "24"
+    },
+    {
+        "hex": "#ea3c27",
+        "code": "17-1563 TCX",
+        "name": "Cherry Tomato",
+        "id": "25"
+    },
+    {
+        "hex": "#7d944c",
+        "code": "17-0336 TPG",
+        "name": "Peridot",
+        "id": "26"
+    },
+    {
+        "hex": "#3cacd4",
+        "code": "16-4530 TCX",
+        "name": "Aquarius",
+        "id": "27"
+    },
+    {
+        "hex": "#758fbf",
+        "code": "16-4039 TCX",
+        "name": "Mountain Bluebird",
+        "id": "28"
+    },
+    {
+        "hex": "#f27e9c",
+        "code": "15-1910 TCX",
+        "name": "Rosy Future",
+        "id": "29"
+    },
+    {
+        "hex": "#ffad85",
+        "code": "14-1242 TPG",
+        "name": "Melon Ice",
+        "id": "30"
     }
 ]
