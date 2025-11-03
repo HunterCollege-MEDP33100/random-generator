@@ -8,13 +8,14 @@ router.get('/', function (req, res, next) {
     if (err) {
       console.log(err)
       res.status(404).send('Not found')
-    } else {
-      const parsedData = JSON.parse(data)
-      const fortunes = parsedData.fortunes
-      const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
-      res.render('index', { randomFortune });
     }
-  })
+    const parsedData = JSON.parse(data)
+    const title = parsedData.title
+    const fortunes = parsedData.fortunes
+    const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+    res.render('index', { title, randomFortune });
+  }
+  )
 }
 );
 
