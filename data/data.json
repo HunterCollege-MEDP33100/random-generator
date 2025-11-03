@@ -1,12 +1,8 @@
-[
-    {
-        "title": "Random Fortune Generator"
-    },
-    {
-        "fortunes": [
-            "You will pass this class",
-            "You will NOT pass this class",
-            "The outcomes of taking this class lies in your hands"
-        ]
-    }
-]
+{
+    "title": "Random Fortune Generator",
+    "fortunes": [
+        "You will pass this class",
+        "You will NOT pass this class",
+        "The outcomes of taking this class lies in your hands"
+    ]
+}
