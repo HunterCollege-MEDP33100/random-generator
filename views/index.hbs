@@ -1,3 +1,13 @@
-<h1>{{title}}</h1>
-<p>{{randomItem}}</p>
-<button id="generate_button">Generate</button>
+<div class="container">
+    <h1>{{title}}</h1>
+    <div class="card">
+        <p class="color" style="background-color:{{randomItemHex}}"></p>
+        <div class="cardText">
+            <p class="pantone">PANTONE<span class="reg">®</span></p>
+            <p class="code">{{randomItemCode}}</p>
+            <p class="name">{{randomItemName}}</p>
+        </div>
+    </div>
+
+    <button id="generate_button">Generate</button>
+</div>
