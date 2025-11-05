@@ -10,6 +10,17 @@ router.get('/', function (req, res, next) {
     fs.readFile('./data/data.json', 'utf8', function (err, data) {
         // randomly select an item from data
 
+        if(err){
+            console.log(err);
+            res.statusCode = 404;
+            res.send('Sorry not found');
+        }
+
+        const randNumItems = JSON.parse(data);
+        const randomIndex = Math.random() * randNumItems.length;
+        randomItem = randNumItems[randomIndex];
+        console.log(randomItem);
+
         // render the index.hbs template with the randomly selected item 
         res.render('index', {
             title: 'My Random Generator',
