@@ -1,5 +1,5 @@
-const generateButton = document.getElementById('generate_button');
+const generateButton = document.getElementById("generate-button");
 
-generateButton.addEventListener('click', function() {
-    window.location.reload();
+generateButton.addEventListener("click", function () {
+  window.location.reload();
 });
