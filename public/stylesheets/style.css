@@ -36,8 +36,10 @@ button:hover{
   fill: white;
   color: white;
   background-color: purple;
+  overflow: visible;
+  box-shadow: 2px 5px 15px 5px #41024C;
 }
 
 button:hover svg{
-  transform: translateX(1em);
+  transform: translateX(7px);
 }
