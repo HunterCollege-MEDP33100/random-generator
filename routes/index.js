@@ -4,18 +4,19 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    let randomItem = '';
-
-    // read from data.json
-    fs.readFile('./data/data.json', 'utf8', function (err, data) {
-        // randomly select an item from data
-
-        // render the index.hbs template with the randomly selected item 
-        res.render('index', {
-            title: 'My Random Generator',
-            randomItem: randomItem,
-        });
-    });
-});
+  fs.readFile('./data/data.json', 'utf8', function (err, data) {
+    if (err) {
+      console.log(err)
+      res.status(404).send('Not found')
+    }
+    const parsedData = JSON.parse(data)
+    const title = parsedData.title
+    const fortunes = parsedData.fortunes
+    const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+    res.render('index', { title, randomFortune });
+  }
+  )
+}
+);
 
 module.exports = router;
