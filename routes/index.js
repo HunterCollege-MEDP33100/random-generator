@@ -1,21 +1,25 @@
-var fs = require('fs');
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const fs = require('fs');
+const path = require('path');
 
-/* GET home page. */
-router.get('/', function (req, res, next) {
-    let randomItem = '';
 
-    // read from data.json
-    fs.readFile('./data/data.json', 'utf8', function (err, data) {
-        // randomly select an item from data
+router.get('/', function(req, res, next) {
+ 
+  const dataPath = path.join(__dirname, '../data/data.json');
+  const rawData = fs.readFileSync(dataPath);
+  const data = JSON.parse(rawData);
+  
 
-        // render the index.hbs template with the randomly selected item 
-        res.render('index', {
-            title: 'My Random Generator',
-            randomItem: randomItem,
-        });
-    });
+  const fortunes = data.fortunes;
+  const randomIndex = Math.floor(Math.random() * fortunes.length);
+  const randomFortune = fortunes[randomIndex];
+  
+
+  res.render('index', { 
+    title: 'Fortune Cookie Generator',
+    fortune: randomFortune 
+  });
 });
 
 module.exports = router;
