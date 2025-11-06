@@ -1,8 +1,68 @@
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "fantasy";
+  background-color: #630303;
+  color: #f5f5f5;
+  text-shadow: 0 0 10px #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.eightball-container {
+  background: radial-gradient(circle at center, #222 40%, #000 100%);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+/* Small bounce animation when the user clicks */
+.eightball-container:active {
+  transform: scale(0.97);
+}
+
+
+#question_input {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  width: 45%;
+  text-align: center;
+  font-size: 14px;
+}
+
+#answer_text {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-shadow: 0 0 10px #630303;
+}
+
+/* Button style */
+#generate_button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #630303;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#generate_button:hover {
+  background-color: #ed5d5d;
+  transform: scale(1.05);
 }
