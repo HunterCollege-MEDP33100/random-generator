@@ -17,8 +17,9 @@ router.get('/', function (req, res, next) {
         }
 
         const randNumItems = JSON.parse(data);
-        const randomIndex = Math.random() * randNumItems.length;
+        const randomIndex = Math.floor(Math.random() * randNumItems.length);
         randomItem = randNumItems[randomIndex];
+        console.log(randomIndex);
         console.log(randomItem);
 
         // render the index.hbs template with the randomly selected item 
